@@ -13,7 +13,7 @@ function App() {
   const dipatch=useDispatch()
   console.log(data)
   useEffect(()=>{
-    dipatch(getData('http://localhost:3000/'))
+    dipatch(getData('http://robo-sqlinjection-backend-production.up.railway.app/'))
   },[])
   
   return (

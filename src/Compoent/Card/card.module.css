@@ -12,10 +12,27 @@
     font-weight: 550;
     font-size: 15px;
 }
+img{
+    width: 80%;
+    display: block;
+border-radius: 8px;
+    margin: auto;
+    
+}
+.outerdiv{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    margin-right: 10px;
+}
 .name{
     font-weight: 650;
-    text-align: center;
-    width: 100%;
+    margin-left: 10px;
     color: rgb(61, 61, 245);
     font-size: 20px;
 }

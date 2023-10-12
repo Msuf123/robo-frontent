@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.headertop{
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.line{
+  border: 2px solid black;
+  width: 90%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.products{
+  
+  font-size: 40px;
+  width: max-content;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 0px;
+}
+.products h5{
+  margin: 0px;
+}
+.cardsddiv{
+  
+  width: 80%;
+  margin: auto;
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+}

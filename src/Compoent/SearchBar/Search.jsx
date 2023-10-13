@@ -16,7 +16,7 @@ export default function Search(){
             <button onClick={async()=>{
                dispatch(loading());
                try {
-                   const response = await fetch('http://robo-sqlinjection-backend-production.up.railway.app/', {
+                   const response = await fetch('https://robo-sqlinjection-backend-production.up.railway.app/', {
                        method: 'POST',
                        headers: { 'Content-Type': 'application/json' },
                        body: JSON.stringify({ name: value })

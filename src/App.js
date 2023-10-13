@@ -13,7 +13,7 @@ function App() {
   const dipatch=useDispatch()
   console.log(data)
   useEffect(()=>{
-    dipatch(getData('http://robo-sqlinjection-backend-production.up.railway.app/'))
+    dipatch(getData('https://robo-sqlinjection-backend-production.up.railway.app/'))
   },[])
   
   return (
